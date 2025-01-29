@@ -32,6 +32,9 @@ li{
 
 
 }
+a{
+    color:black;
+}
 div{
     background-color: rgb(233, 248, 16);
     width:100%;
