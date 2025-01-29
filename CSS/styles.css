@@ -1,0 +1,41 @@
+body{
+    background-color: grey;
+}
+h1{
+    font-family:'Courier New', Courier, monospace;
+    font-size: xx-large;
+    color: darkblue;
+    text-align: center;
+
+}
+header{
+    background-color: blueviolet;
+}
+main{
+    background-color: rgb(233, 248, 16);
+}
+p{
+    font-family:'Courier New', Courier, monospace;
+    font-size: medium;
+   
+
+}
+nav{
+    background-color:rgb(29, 192, 233);
+}
+li{
+    font-family:'Courier New', Courier, monospace;
+    font-size: larger;
+  
+   
+    background-color:rgb(29, 192, 233);
+    text-align: center;
+    width:33%;
+    height:100%;
+    display:inline-block;
+
+}
+footer{
+    background-color: blueviolet;
+}
+
