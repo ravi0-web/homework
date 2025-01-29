@@ -35,6 +35,9 @@ li{
     display:inline-block;
 
 }
+a{
+    color:black;
+}
 footer{
     background-color: blueviolet;
 }
