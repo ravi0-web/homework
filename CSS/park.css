@@ -9,7 +9,7 @@ h1{
 
 }
 header{
-    background-color: blueviolet;
+ background-color: rgb(217, 189, 243);
 }
 p{
     font-family:'Courier New', Courier, monospace;
@@ -38,5 +38,5 @@ div{
     height:150%;
 }
 footer{
-    background-color: blueviolet;
+   background-color: rgb(217, 189, 243);
 }
