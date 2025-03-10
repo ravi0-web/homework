@@ -1,5 +1,6 @@
 body{
     background-color: grey;
+    font-size: 30px;
 }
 h1{
     font-family:'Courier New', Courier, monospace;
@@ -9,36 +10,45 @@ h1{
 
 }
 header{
-  background-color: rgb(217, 189, 243);
+    
+    background-color: rgb(217, 189, 243);
+   
+}
+.pic {
+    background-image: url('../images/BaconGallupPark.jpg');
+    height: 150px; /* Adjust height */
+    width: 130px; /* Make it full width */
+    background-size: cover;
+    background-position: center;
+    margin:2px;
+    padding:2px;
 }
 main{
     background-color: rgb(233, 248, 16);
+    
 }
 p{
     font-family:'Courier New', Courier, monospace;
-    font-size: medium;
+    font-size: 30px;
    
 
 }
+
+
+
 nav{
-    background-color:rgb(29, 192, 233);
-}
-li{
+    display:flex;
     font-family:'Courier New', Courier, monospace;
     font-size: larger;
-  
+  justify-content: center;
+  justify-content: space-evenly;
+ 
    
-    background-color:rgb(29, 192, 233);
-    text-align: center;
-    width:33%;
-    height:100%;
-    display:inline-block;
-
 }
 a{
-    color:black;
+    text-decoration: none;
 }
 footer{
-   background-color: rgb(217, 189, 243);
+    background-color: rgb(217, 189, 243);
 }
 
