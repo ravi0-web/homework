@@ -1,5 +1,6 @@
 body{
     background-color: grey;
+    font-size: 30px;
 }
 h1{
     font-family:'Times New Roman', Times, serif;
@@ -9,37 +10,54 @@ h1{
 
 }
 header{
- background-color: rgb(217, 189, 243);
+    background-color: rgb(217, 189, 243);
 }
 p{
     font-family:'Courier New', Courier, monospace;
-    font-size: medium;
-
-}
-nav{
-    background-color:rgb(29, 192, 233);
-}
-li{
-    font-family:'Courier New', Courier, monospace;
-    font-size: larger;
-  
+    font-size: 30px;
    
-    background-color:rgb(29, 192, 233);
-    text-align: center;
-    width:33%;
-    height:40px;
-    display:inline-block;
 
+}
 
+nav{
+
+    display:flex;
+    justify-content: space-evenly;
+}
+.pic {
+    background-image: url('../images/BaconGallupPark.jpg');
+    height: 150px; /* Adjust height */
+    width: 130px; /* Make it full width */
+    background-size: cover;
+    background-position: center;
+    margin:2px;
+    padding:2px;
 }
 a{
-    color:black;
+    font-family:'Courier New', Courier, monospace;
+    font-size: 30px;
+    
+        text-decoration: none;
+
 }
+.imgs{
+    display:grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap:10px;
+
+}
+.imgs img {
+    width: 100%; /* Makes image fill the grid column */
+    max-width: 200px; /* Increase this to make the images larger */
+    height: auto;
+    place-items:center; /* Maintains aspect ratio */
+}
+
 div{
     background-color: rgb(233, 248, 16);
     width:100%;
     height:150%;
 }
 footer{
-   background-color: rgb(217, 189, 243);
+    background-color: blueviolet;
 }
