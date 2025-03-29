@@ -1,63 +1,83 @@
-body{
-    background-color: grey;
-    font-size: 30px;
+body {
+  background-color: grey;
+  font-size: 30px;
 }
-h1{
-    font-family:'Times New Roman', Times, serif;
-    font-size: 50px;
-    color: darkblue;
-    text-align: center;
-
-}
-header{
-    background-color: rgb(217, 189, 243);
-}
-p{
-    font-family:'Courier New', Courier, monospace;
-    font-size: 30px;
-   
-
+.skip-link {
+  position: absolute;
+  top: -40px;
+  left: 0;
+  background: #444;
+  color: white;
+  padding: 8px;
+  z-index: 100;
 }
 
-nav{
+.skip-link:focus {
+  top: 10px;
+}
+h1 {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 50px;
+  color: darkblue;
+  text-align: center;
+}
+.br {
+  height: max-content;
+  border: 3px solid transparent;
+}
+.br:hover {
+  border: 3px solid darkblue;
+  border-radius: 3%;
+}
+header {
+  background-color: rgb(217, 189, 243);
+}
+p {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 30px;
+}
 
-    display:flex;
-    justify-content: space-evenly;
+nav {
+  display: flex;
+  justify-content: space-evenly;
 }
 .pic {
-    background-image: url('../images/BaconGallupPark.jpg');
-    height: 150px; /* Adjust height */
-    width: 130px; /* Make it full width */
-    background-size: cover;
-    background-position: center;
-    margin:2px;
-    padding:2px;
+  border: 4px solid black;
+  background-image: url("../images/BaconGallupPark.jpg");
+  height: 150px; /* Adjust height */
+  width: 130px; /* Make it full width */
+  background-size: cover;
+  background-position: center;
+  margin: 2px;
+  padding: 2px;
 }
-a{
-    font-family:'Courier New', Courier, monospace;
-    font-size: 30px;
-    
-        text-decoration: none;
+a {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 30px;
 
+  text-decoration: none;
 }
-.imgs{
-    display:grid;
-    grid-template-columns: repeat(5, 1fr);
-    gap:10px;
-
+.imgs {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 10px;
 }
 .imgs img {
-    width: 100%; /* Makes image fill the grid column */
-    max-width: 200px; /* Increase this to make the images larger */
-    height: auto;
-    place-items:center; /* Maintains aspect ratio */
+  border: 4px solid black;
+  width: 100%; /* Makes image fill the grid column */
+  max-width: 200px; /* Increase this to make the images larger */
+  height: auto;
+  place-items: center; /* Maintains aspect ratio */
+}
+.imgs img:hover {
+  border: 4px dashed black;
 }
 
-div{
-    background-color: rgb(233, 248, 16);
-    width:100%;
-    height:150%;
+div {
+  background-color: rgb(233, 248, 16);
+  width: 100%;
+  height: 150%;
 }
-footer{
-    background-color: blueviolet;
+footer {
+  background-color: blueviolet;
 }
